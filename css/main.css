@@ -170,7 +170,6 @@ h1 {
 
 .banner {
   position: relative;
-  min-width: 440px;
 }
 
 .relative {
@@ -235,9 +234,13 @@ h1 {
     font-size: 110%;
   }
 
+  /* ul li {
+    width: 50%;
+  } */
+
   .nav-check:checked ~ .nav {
     display: flex;
-    flex-wrap: nowrap;
+
     align-items: center;
   }
 
@@ -258,6 +261,10 @@ h1 {
 
 @media only screen and (min-width: 60em) {
 
+  .nav-check:checked ~ .nav {
+    flex-wrap: nowrap;
+  }
+
   html {
     line-height: 1.5;
     font-size: 120%;
@@ -268,7 +275,7 @@ h1 {
     flex-wrap: nowrap;
     align-items: center;
   }
-
+  .nav-label,
   .close {
     display: none;
   }
