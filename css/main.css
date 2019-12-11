@@ -78,6 +78,25 @@ li {
   padding: 0;
   margin: 0;
 }
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+.close {
+  display: none;
+}
+
+.open:checked ~ .close {
+  display: block;
+}
+
+.nav-check:checked ~ .nav-label .open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .close {
+  display: block;
+}
 
 .open,
 .close {
@@ -104,10 +123,7 @@ li {
   top: 3em;
 }
 
-.nav-check {
-  position: absolute;
-  top: -3em;
-}
+
 
 .img-flex {
   display: block;
@@ -119,21 +135,7 @@ li {
   width: 100%;
 }
 
-.close {
-  display: none;
-}
 
-.open:checked ~ .close {
-  display: block;
-}
-
-.nav-check:checked ~ .nav-label .open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .close {
-  display: block;
-}
 
 .middle ul {
   display: flex;
