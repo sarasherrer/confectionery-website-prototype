@@ -62,13 +62,13 @@ nav ul {
   flex-wrap: wrap;
 }
 
-nav ul li {
+nav li {
   width: 50%;
   text-align: center;
   list-style-type: none;
 }
 
-nav ul a {
+nav a {
   padding: .5em .75em;
   border: 1px solid black;
   width: 100%;
@@ -77,13 +77,15 @@ nav ul a {
   background-color: grey;
 }
 
-/* NAV EDITS END */
-
-/* BODY STYLING */
-.middle {
-  text-align: center;
+.middle ul {
+  padding: 10px;
+  margin: 10px;
 }
-/* END BODY */
+
+.middle li {
+  width: 33.33%;
+  margin-left: 33.33%;
+}
 
 /* HIDDEN CONTENT UNTIL 38EM */
 .large {
@@ -107,7 +109,14 @@ nav ul a {
   .banner-content {
     font-size: 2em;
   }
+  section ul {
+    display: flex;
+    padding: 0px;
+  }
 
+  .middle li {
+    margin-left: 0;
+  }
 
 }
 
@@ -137,19 +146,22 @@ nav ul a {
     width: 100%;
     padding-top: 30px;
   }
-
+/*
   .middle {
     display: inline-block;
     text-align: left;
-    margin-left: 30px;
+    margin-left: 30px; */
   }
   .photo {
     width: 100%;
   }
 
   .photo img {
-    margin: {0 auto};
+    margin: 0 auto;
   }
+
+
+
 }
 
 @media only screen and (min-width: 60em) {
