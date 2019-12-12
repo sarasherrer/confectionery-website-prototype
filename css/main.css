@@ -115,6 +115,17 @@ nav a {
 .relative:hover {
   opacity: .2;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0px;
+  background-color: grey;
+  }
+.small {
+  width: 10px;
+}
 /* HIDDEN CONTENT UNTIL 38EM */
 .large {
   display: none;
@@ -148,6 +159,15 @@ nav a {
     margin-left: 0;
   }
 
+  .products {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .relative {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -170,7 +190,6 @@ nav a {
     width: 50%;
     margin-left: 25%;
   }
-
 
 
 
@@ -205,6 +224,10 @@ nav a {
 
   .photo img {
     margin: 0 auto;
+  }
+
+  .relative {
+    width: 33.33%;
   }
 }
 
