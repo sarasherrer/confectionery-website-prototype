@@ -117,14 +117,17 @@ nav a {
 }
 
 footer {
+  justify-content: center;
   display: flex;
-  flex-direction: column;
   position: fixed;
-  bottom: 0px;
-  background-color: grey;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
   }
 .small {
-  width: 10px;
+  width: 5%;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 /* HIDDEN CONTENT UNTIL 38EM */
 .large {
