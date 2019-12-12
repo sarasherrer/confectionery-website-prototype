@@ -49,6 +49,10 @@ h1 {
   border-radius: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
 /* NAVIGATION CLOSE FUNCTION START */
 nav ul {
   padding: .3em 0 .5em;
@@ -77,6 +81,9 @@ a {
   text-decoration: none;
   color: black;
 }
+/* HIDDEN CONTENT UNTIL 60EM */
+
+/* HIDDEN CONTENT UNTIL 90EM */
 @media only screen and (min-width: 25em) {
 
   html {
@@ -109,6 +116,31 @@ a {
   }
   .banner-content {
     font-size: 3em;
+  }
+
+  .flex {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .large {
+    display: inline-block;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .middle {
+    display: inline-block;
+    text-align: left;
+    margin-left: 30px;
+  }
+  .photo {
+    width: 100%;
+  }
+
+  .photo img {
+    margin: {0 auto};
   }
 }
 
