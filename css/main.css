@@ -128,8 +128,16 @@ footer {
   bottom: 0;
   background-color: white;
   width: 100%;
+  align-items: center;
   }
 
+footer p {
+  margin: 0;
+}
+
+footer img {
+  margin: 10px;
+}
 .small {
   width: 5%;
   margin-left: 5px;
@@ -177,6 +185,9 @@ footer {
   .relative {
     width: 50%;
   }
+  .hidden {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -200,7 +211,9 @@ footer {
     margin-left: 25%;
   }
 
-
+  .hidden {
+    display: block;
+  }
 
 
 }
