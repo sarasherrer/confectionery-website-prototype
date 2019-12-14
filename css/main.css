@@ -120,7 +120,6 @@ nav a {
 
 a:hover {
   background-color: rgb(185, 184, 184);
-
 }
 
 footer {
@@ -135,6 +134,7 @@ footer {
 
 footer p {
   margin: 0;
+  font-size: .5em;
 }
 
 footer img {
@@ -142,7 +142,7 @@ footer img {
 }
 
 .small {
-  width: 5%;
+  width: 3%;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -215,7 +215,6 @@ footer img {
     margin-left: 25%;
   }
 
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -264,7 +263,5 @@ footer img {
   html {
     font-size: 130%;
   }
-
-
 
 }
