@@ -19,6 +19,8 @@ html {
 
 body {
   margin: 0;
+  text-align: center;
+  margin-bottom: 90px;
 }
 
 p,
@@ -41,9 +43,9 @@ h1 {
 .banner-content {
   display: flex;
   position: absolute;
-  top: 0px;
-  right: 0px;
-  margin: 0px;
+  top: 0;
+  right: 0;
+  margin: 0;
   font-size: 2em;
   background-color: grey;
   border-radius: 10px;
@@ -53,7 +55,7 @@ a {
   text-decoration: none;
   color: black;
 }
-/* NAVIGATION CLOSE FUNCTION START */
+
 nav ul {
   padding: .3em 0 .5em;
   margin: 0;
@@ -78,24 +80,24 @@ nav a {
   border: 1px solid black;
   width: 100%;
   display: inline-block;
-  /* margin-bottom: .2em; */
   background-color: grey;
 }
 
 .middle {
   padding: 20px;
+  width: 100%;
 }
 
 .middle ul {
   padding: 10px;
-  margin-LEFT: 10px;
+  margin-left: 10px;
 }
 
 .middle li {
   width: 33.33%;
   margin-left: 33.33%;
 }
-/* Products */
+
 .relative {
   position: relative;
 }
@@ -117,9 +119,9 @@ nav a {
 }
 
 a:hover {
-  opacity: .2;
-}
+  background-color: rgb(185, 184, 184);
 
+}
 
 footer {
   justify-content: center;
@@ -129,7 +131,7 @@ footer {
   background-color: white;
   width: 100%;
   align-items: center;
-  }
+}
 
 footer p {
   margin: 0;
@@ -138,18 +140,16 @@ footer p {
 footer img {
   margin: 10px;
 }
+
 .small {
   width: 5%;
   margin-left: 5px;
   margin-right: 5px;
 }
-/* HIDDEN CONTENT UNTIL 38EM */
+
 .large {
   display: none;
 }
-/* HIDDEN CONTENT UNTIL 60EM */
-
-/* HIDDEN CONTENT UNTIL 90EM */
 
 @media only screen and (min-width: 25em) {
 
@@ -166,9 +166,10 @@ footer img {
   .banner-content {
     font-size: 2em;
   }
+
   section ul {
     display: flex;
-    padding: 0px;
+    padding: 0;
     margin: 0;
   }
 
@@ -185,9 +186,11 @@ footer img {
   .relative {
     width: 50%;
   }
+
   .hidden {
     display: none;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -201,6 +204,7 @@ footer img {
   h1 {
     margin: 0 0 1.4rem;
   }
+
   .banner-content {
     font-size: 3em;
   }
@@ -209,10 +213,6 @@ footer img {
     display: flex;
     width: 50%;
     margin-left: 25%;
-  }
-
-  .hidden {
-    display: block;
   }
 
 
@@ -229,6 +229,7 @@ footer img {
   h1 {
     margin: 0 0 1.5rem;
   }
+
   nav ul li {
     width: 25%;
   }
@@ -240,7 +241,7 @@ footer img {
   }
 
   .photo {
-    width: 100%;
+    width: 50%;
     min-width: 150px;
   }
 
@@ -251,12 +252,19 @@ footer img {
   .relative {
     width: 33.33%;
   }
+
+  .hidden {
+    display: block;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
-}
+  }
+
+
 
 }
